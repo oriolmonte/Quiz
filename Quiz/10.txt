@@ -1,0 +1,11 @@
+2
+De que color es el caballo blanco de Santiago?
+2
+1-Negro
+2-Blanco
+3-Azul
+La capital de wachimuchi
+1
+1-Penegrueso
+2-Pitocorto
+3-Carapolla

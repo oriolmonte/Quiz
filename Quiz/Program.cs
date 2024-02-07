@@ -6,29 +6,49 @@
         {
             Console.WriteLine("Hello, World!");
         }
-        static String[] GetTemas (string fileName)
+        public static void GetPregunta(string pregunta) 
         {
-            List<String> list = new List<String>();
-            StreamReader sr = new StreamReader(fileName);
+            Console.Clear();
+            bool trobat = false;
+            Random r = new Random();
+            StreamReader sr = new StreamReader($"{pregunta}.txt");
+            int maxPreguntas = Convert.ToInt32(sr.ReadLine());
+            int preguntaElegida = r.Next(1, maxPreguntas);
+            int respuestaCorrecta;
             string cursor = sr.ReadLine();
-            while (cursor != null) 
+            while (cursor != null && !trobat) 
             {
-                list.Add(cursor);               
+                if (Convert.ToInt32(cursor) == preguntaElegida)
+                {
+                    trobat = true;
+                }
+                else
+                    cursor = sr.ReadLine();
             }
-            return list.ToArray();
-        }
-        static string GetOption (int opcion, String[] temas)
-        {
-            return temas[opcion];
-        }
-        static void ShowOptions(String[] temas)
-        {         
-            int count = 1;
-            foreach (String t in temas) 
+            if (!trobat) throw new Exception("An unexpected error has ocurred");
+            else
             {
-                Console.WriteLine($"{count} - {t}");
+                respuestaCorrecta= Convert.ToInt32(cursor);
+                for(int i = 0; i < 2; i++)
+                {
+                    cursor = sr.ReadLine();
+                    Console.WriteLine(cursor);
+                }
+                Console.Write("Write the correct answer number:");
+                int respuesta = Convert.ToInt32(Console.ReadLine());
+                Console.Clear() ;
+                if (respuestaCorrecta == respuesta)
+                {
+                    MsgNextScreen("YOU WON!!!!!!!!");
+                }
+                else
+                {
+                    MsgNextScreen("Try again...");
+                }
+                 
             }
-            Console.WriteLine("E - Exit");
+
+        
         }
 
     }
