@@ -1,0 +1,16 @@
+﻿3
+In what year was FC Barcelona founded?
+2
+1-1988
+2-1899
+3-1888
+How long does a soccer match last that goes to a penalty shootout?
+1
+1-120 minutes
+2-105 minutes
+3-90 minutes
+In what year was Camp Nou inaugurated?
+3
+1-1958
+2-1956
+3-1957
