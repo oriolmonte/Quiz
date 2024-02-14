@@ -1,0 +1,25 @@
+5
+What is the smallest planet?
+2
+1-Pluto
+2-Mercury
+3-Saturn
+4-Mars
+What is the red planet?
+1
+1-Mars
+2-Mercury
+3-Jupiter
+4-Saturn
+Which planet is surrounded by rings?
+1
+1-Saturn
+2-Mars
+3-Jupiter
+4-Mercury
+Which planet is closest to the sun?
+3
+1-The earth
+2-Mars
+3-Mercury
+4-Pluto
