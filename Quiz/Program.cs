@@ -13,7 +13,11 @@
         public static void StartUp()
         {
             Console.Clear();
-            Console.WriteLine("WELCOME TO THE QUIZ, SELECT THE TOPIC AND PRESS RETURN");
+            Console.Write("┌────────────────────────────────────────────────────────────────────────┐\r\n");
+            Console.Write("│                                                                        │\r\n");
+            Console.Write("│ WELCOME TO THE QUIZ! PLEASE SELECT YOUR TOPIC NUMBER AND PRESS RETURN  │\r\n");
+            Console.Write("│                                                                        │\r\n");
+            Console.Write("└────────────────────────────────────────────────────────────────────────┘\r\n");
             Console.WriteLine("10-TEST");
             string topic = Console.ReadLine();
             try
@@ -23,8 +27,8 @@
             catch (Exception ex)
             {
                 Console.Clear();
-                Console.WriteLine(ex.Message);
-                Console.WriteLine(ex);
+                Console.WriteLine("Oops! Something went wrong! Want to try again?");
+                EndOrRetry();
             }
         }
         /// <summary>
@@ -36,7 +40,6 @@
             Console.Clear();
             Random r = new Random();
             StreamReader sr = new StreamReader($"{topic}.txt");
-            if (sr.Peek() == -1) throw new Exception("Topic not found!");
             int maxPreguntas = Convert.ToInt32(sr.ReadLine());
             int preguntaElegida = r.Next(0, maxPreguntas);
             int respuestaCorrecta;
@@ -49,7 +52,7 @@
             Console.WriteLine(cursor);
             cursor = sr.ReadLine();
             respuestaCorrecta = Convert.ToInt32(cursor);
-            for(int i = 0; i < 3; i++)
+            for(int i = 0; i < 4; i++)
             {
                 cursor = sr.ReadLine();
                 Console.WriteLine(cursor);
@@ -68,11 +71,20 @@
             Console.WriteLine("Press E to EXIT");
             Console.WriteLine("Press RETURN to go back to topic selection");
             ConsoleKeyInfo tecla = Console.ReadKey();
-            if (tecla.Key == ConsoleKey.Enter)
-                StartUp();
-            else
-                Console.WriteLine("Thanks for playing!");
+            End(tecla.Key);
         }
-
+        public static void End(ConsoleKey tecla)
+        {
+            if (tecla == ConsoleKey.Enter)
+                StartUp();
+            else if (tecla == ConsoleKey.E)
+                Console.Clear();
+            Console.Write("┌────────────────────────────────────────────────────────────────────────┐\r\n");
+            Console.Write("│                                                                        │\r\n");
+            Console.Write("│                        THANKS FOR PLAYING!                             │\r\n");
+            Console.Write("│                                                                        │\r\n");
+            Console.Write("└────────────────────────────────────────────────────────────────────────┘\r\n");
+            Environment.Exit(1);
+        }
     }
 }

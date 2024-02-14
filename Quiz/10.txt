@@ -1,11 +1,25 @@
+5
+What's our favorite teacher?
 2
-De que color es el caballo blanco de Santiago?
-2
-1-Negro
-2-Blanco
-3-Azul
-La capital de wachimuchi
+1-Koke Resurrecion
+2-Miquel Mayà
+3-Pedro Sanchez
+4-Captain Underpants
+What's our M01 Teacher
 1
-1-Penegrueso
-2-Pitocorto
-3-Carapolla
+1-Xevi Terradellas
+2-Miquel Mayà
+3-Elena Nito del Bosque
+4-Virtudes Nuda
+What's our M02 Teacher
+3
+1-Elba Surero
+2-Aitor Menta
+3-Artur Juvé
+4-Dolores Fuertes de Barriga
+What's the name of our Educ
+4
+1-Elba Surero
+2-Aitor Menta
+3-Artur Juvé
+4-Dolores Fuertes de Barriga
