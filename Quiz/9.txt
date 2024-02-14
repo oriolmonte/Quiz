@@ -1,16 +1,31 @@
-﻿3
+﻿5
 In what year was FC Barcelona founded?
 2
 1-1988
 2-1899
 3-1888
+4-1898
 How long does a soccer match last that goes to a penalty shootout?
 1
 1-120 minutes
 2-105 minutes
 3-90 minutes
+4-210 minutes
 In what year was Camp Nou inaugurated?
 3
 1-1958
 2-1956
 3-1957
+4-1955
+Which Spanish league team has the highest number of league wins?
+4
+1-Valencia
+2-Girona FC
+3-Fc Barcelona
+4-Real Madrid
+What sport does Rafael Nadal practice professionally?
+2
+1-Soccer
+2-Tennis
+3-Basketball
+4-Volleyball

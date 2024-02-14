@@ -1,16 +1,31 @@
-﻿3
+﻿5
 What is the square root of 64?
 2
 1-4
 2-8
 3-16
+4-24
 What is the value of the number PI?
 1
 1-3,14
 2-4,13
 3-1,14
+4-2.14
 What is the result of this sum = 807+542+277?
 3
 1-1625
 2-1627
 3-1626
+4-1628
+Who postulated the law of the principle of inertia?
+4
+1-Albert Einstein
+2-Galileo Galilei
+3-Aristóteles
+4-Isaac Newton
+What is the result of this sum = 62*5+490?
+2
+1-802
+2-800
+3-798
+4-814
