@@ -17,9 +17,15 @@ What's our M02 Teacher
 2-Aitor Menta
 3-Artur Juvé
 4-Dolores Fuertes de Barriga
-What's the name of our Educ
+Where do we take our lessons?
 4
-1-Elba Surero
-2-Aitor Menta
+1-Tumbuctu
+2-Ulan Bator
+3-My house
+4-Institut Montilivi
+Which one is not one of our teachers?
+2
+1-Miquel Mayà
+2-Manolo el del Butano
 3-Artur Juvé
-4-Dolores Fuertes de Barriga
+4-Ferran Chic
