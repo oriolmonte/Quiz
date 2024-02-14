@@ -1,16 +1,31 @@
-﻿3
+﻿5
 When America was discovered?
 2
 1-1942
 2-1492
 3-1429
+4-1249
 How many provinces does Spain have?
 1
 1-50
 2-52
 3-48
+4-51
 What is the capital of Andalucia?
 3
 1-Cadiz
 2-Malaga
 3-Sevilla
+4-Granada
+What is the capital of Argentina?
+4
+1-La Pampa
+2-Buenos Mares
+3-Santa Fe
+4-Buenos Aires
+What country is considered "the country of a thousand lakes"?
+2
+1-Suiza
+2-Finlandia
+3-Grecia
+4-Ucrania
