@@ -23,9 +23,9 @@ Which of these character's isn't a Vulcan?
 2-Spock
 3-Wesley Crusher
 4-Sarek
-What's the Klingon word for "Farewell" and "Good Luck"?
+What's most important in Klingon Culture
 2
-1-I hate you
-2-K'plah!
-3-Darmok and Jalaad
-4-Bye sweetie
+1-Money
+2-Honor
+3-Cool spaceships
+4-The pursuit of knowledge
