@@ -1,0 +1,31 @@
+5
+What's the name of Mario's brother?
+3
+1-Mario
+2-Pepe
+3-Luigi
+4-Peach
+Who's the protagonist of the Legend of Zelda series?
+1
+1-Link
+2-Zelda
+3-Ganon
+4-Donkey Kong
+Which one of these isn't a sports videogame?
+4
+1-FIFA
+2-Madden
+3-NBA2K
+4-Final Fantasy
+Which one of these is a game console?
+3
+1-Microwave
+2-Fridge
+3-Atari 2600
+4-BMW X5
+What's the latest game console released by Nintendo
+2
+1-Nintendo Entertainment System
+2-Nintendo Switch
+3-Nintendo Wii
+4-PlayStation 4
