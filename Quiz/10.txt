@@ -1,0 +1,31 @@
+5
+What's our favorite teacher?
+2
+1-Koke Resurrecion
+2-Miquel Mayà
+3-Pedro Sanchez
+4-Captain Underpants
+What's our M01 Teacher
+1
+1-Xevi Terradellas
+2-Miquel Mayà
+3-Elena Nito del Bosque
+4-Virtudes Nuda
+What's our M02 Teacher
+3
+1-Elba Surero
+2-Aitor Menta
+3-Artur Juvé
+4-Dolores Fuertes de Barriga
+Where do we take our lessons?
+4
+1-Tumbuctu
+2-Ulan Bator
+3-My house
+4-Institut Montilivi
+Which one is not one of our teachers?
+2
+1-Miquel Mayà
+2-Manolo el del Butano
+3-Artur Juvé
+4-Ferran Chic
