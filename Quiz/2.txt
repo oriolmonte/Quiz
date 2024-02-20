@@ -1,0 +1,31 @@
+5
+What month has 28 days?
+2
+1-November
+2-Every Month
+3-March
+4-February
+In what month is Christmas celebrated?
+2
+1-November
+2-December
+3-March
+4-February
+What month is Halloween celebrated?
+3
+1-January
+2-March
+3-November
+4-February
+What is the sixth month of the year?
+4
+1-January
+2-March
+3-July
+4-June
+In what month is Valentine's Day celebrated?
+1
+1-February
+2-March
+3-January
+4-June
