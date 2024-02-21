@@ -55,6 +55,7 @@
             int preguntaElegida = r.Next(0, maxPreguntas);
             int respuestaCorrecta;
             string cursor = sr.ReadLine();
+            //Reads for the randomly selected line
             for(int i = 0; i<preguntaElegida*6; i++)
             {
                 cursor = sr.ReadLine();
@@ -62,7 +63,9 @@
             Console.Clear();
             Console.WriteLine(cursor);
             cursor = sr.ReadLine();
+            //Saves the correct answer number
             respuestaCorrecta = Convert.ToInt32(cursor);
+            //Displays all the possible answers in the multiple question
             for(int i = 0; i < 4; i++)
             {
                 cursor = sr.ReadLine();
@@ -77,11 +80,13 @@
                 Console.WriteLine("Wrong answer!");
             EndOrRetry();
         }
+        /// <summary>
+        /// Ends the game by prompting the user to retry or end the program
+        /// </summary>
         public static void EndOrRetry()
         {
             Console.WriteLine("Press any key to EXIT");
             Console.WriteLine("Press RETURN to go back to topic selection");
-            Thread.Sleep(1);
             ConsoleKeyInfo tecla = Console.ReadKey();
             End(tecla.Key);
         }
