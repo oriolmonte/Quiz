@@ -18,7 +18,18 @@
             Console.Write("│ WELCOME TO THE QUIZ! PLEASE SELECT YOUR TOPIC NUMBER AND PRESS RETURN  │\r\n");
             Console.Write("│                                                                        │\r\n");
             Console.Write("└────────────────────────────────────────────────────────────────────────┘\r\n");
-            Console.WriteLine("10-TEST");
+            Console.WriteLine("1-ASTRONOMY");
+            Console.WriteLine("2-CALENDAR");
+            Console.WriteLine("3-POP MUSIC");
+            Console.WriteLine("4-HISTORY");
+            Console.WriteLine("5-PROGRAMMING LANGUAGES");
+            Console.WriteLine("6-LANGUAGE LEARNING");
+            Console.WriteLine("7-GEOGRAPHY");
+            Console.WriteLine("8-MATH");
+            Console.WriteLine("9-SPORTS");
+            Console.WriteLine("10-DAM 1ST AT MONTILIVI");
+            Console.WriteLine("11-STAR TREK");
+            Console.WriteLine("12-VIDEOGAME HISTORY");
             string topic = Console.ReadLine();
             try
             {
@@ -44,7 +55,7 @@
             int preguntaElegida = r.Next(0, maxPreguntas);
             int respuestaCorrecta;
             string cursor = sr.ReadLine();
-            for(int i = 0; i<preguntaElegida*5; i++)
+            for(int i = 0; i<preguntaElegida*6; i++)
             {
                 cursor = sr.ReadLine();
             }
@@ -68,23 +79,28 @@
         }
         public static void EndOrRetry()
         {
-            Console.WriteLine("Press E to EXIT");
+            Console.WriteLine("Press any key to EXIT");
             Console.WriteLine("Press RETURN to go back to topic selection");
+            Thread.Sleep(1);
             ConsoleKeyInfo tecla = Console.ReadKey();
             End(tecla.Key);
         }
         public static void End(ConsoleKey tecla)
         {
-            if (tecla == ConsoleKey.Enter)
-                StartUp();
-            else if (tecla == ConsoleKey.E)
-                Console.Clear();
-            Console.Write("┌────────────────────────────────────────────────────────────────────────┐\r\n");
-            Console.Write("│                                                                        │\r\n");
-            Console.Write("│                        THANKS FOR PLAYING!                             │\r\n");
-            Console.Write("│                                                                        │\r\n");
-            Console.Write("└────────────────────────────────────────────────────────────────────────┘\r\n");
-            Environment.Exit(1);
+
+                if (tecla == ConsoleKey.Enter)
+                    StartUp();
+                else
+                {
+
+                    Console.Clear();
+                Console.Write("┌────────────────────────────────────────────────────────────────────────┐\r\n");
+                Console.Write("│                                                                        │\r\n");
+                Console.Write("│                        THANKS FOR PLAYING!                             │\r\n");
+                Console.Write("│                                                                        │\r\n");
+                Console.Write("└────────────────────────────────────────────────────────────────────────┘\r\n");
+                Environment.Exit(1);
+                }
         }
     }
 }
